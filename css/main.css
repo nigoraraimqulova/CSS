@@ -1,0 +1,50 @@
+.wrap{
+    width: 1200px;
+    margin: 20px auto;
+}
+h1{
+    text-shadow: -2px -10px 10px red,2px 10px 10px blue;
+}
+.row{
+    width: 100%;
+    display: block;
+}
+.col{
+    width: 30%;
+    display: block;
+    float: left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -moz-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -o-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -ms-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    transition: all 0.5s ease-in-out;
+}
+.col:hover{
+    background-color: #7de29e;
+}
+.row .col:nth-child(2){
+    margin: 0 5px;
+}
+.row .col:nth-child(1) .sana{
+    background-color: indianred;
+   /* background: linear-gradient(180deg,red,yellow);*/
+    background: radial-gradient(#ff85a2,#ffb82c,red,yellow);
+}
+.sana{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 5rem 0;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #7de29e;
+    color: white;
+    text-align: center;
+    background: linear-gradient(0deg,#7de29e,#7579e2);
+}
+.text-sana{
+    padding: 2rem 0;
+    text-align: center;
+}

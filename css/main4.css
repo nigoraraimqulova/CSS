@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+.span{
+    background: linear-gradient(darkred,steelblue,lawngreen);
+    width: 1720px;
+    height: 300px;
+}
+.spann{
+    background: linear-gradient(95deg,orange,green,blue,blueviolet);
+    width: 1720px;
+    height: 300px;
+}
+p{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}

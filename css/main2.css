@@ -1,0 +1,10 @@
+body{
+    background-color: white;
+}
+.wrap{
+    width: 1000px;
+    height: 700px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    background: radial-gradient(red,yellow,green);
+}
